@@ -25,7 +25,8 @@ public class JavaHomeWork {
         System.out.println("a % b = " + (a % b));
         System.out.println("(a + b) * 2 - c= " + ((a + b) * b - c));
         System.out.println("a++ = " + (a++));
-        System.out.println("++a = " + (++a) + "\n");
+        System.out.println("++a = " + (++a));
+        System.out.println("\n");
     }
 
     private static void logicOperators() {
@@ -37,14 +38,16 @@ public class JavaHomeWork {
         System.out.println("a != b : " + (a != b));
         System.out.println("a > b : " + (a > b));
         System.out.println("a < b : " + (a < b));
-        System.out.println("a + b >= c : " + ((a + b) <= c) + "\n");
+        System.out.println("a + b >= c : " + ((a + b) <= c));
+        System.out.println("\n");
     }
 
     private static void overflow() {
         byte b = Byte.MAX_VALUE;
         byte a = 2;
 
-        System.out.println("Переполнение: " + (byte) (a * b) + "\n");
+        System.out.println("Переполнение: " + (byte) (a * b));
+        System.out.println("\n");
     }
 
     private static void combinationIntAndDouble() {
@@ -52,8 +55,9 @@ public class JavaHomeWork {
         double d = 1.52;
         int i = 2000;
 
-        System.out.println("Приведение суммы (i + d) к int: " + (int) (i + d) + "\n");
-        System.out.println("Приведение разности (i - d) к double : " + (double) (i + d) + "\n");
+        System.out.println("Приведение суммы (i + d) к int: " + (int) (i + d));
+        System.out.println("Приведение разности (i - d) к double : " + (double) (i + d));
+        System.out.println("\n");
     }
 
     private static void ifElseOperator() {
@@ -77,7 +81,8 @@ public class JavaHomeWork {
 
         int age = 18;
         String answer = (age >= 18) ? "Можно управлять ТС" : "Нельзя управлять ТС по ПДД";
-        System.out.println(answer + "\n");
+        System.out.println(answer);
+        System.out.println("\n");
     }
 
     private static void switchCaseOperator() {
@@ -98,5 +103,4 @@ public class JavaHomeWork {
         }
         System.out.println("\n");
     }
-
 }
